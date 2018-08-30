@@ -1,8 +1,20 @@
 extends layout
 
 block content
-	h1= title
+	h1=dataCuong.data.title
 	figure
-		img(src="./img/logo.png", alt="")
-	p Welcome to #{title}
-	
+		img(src=dataCuong.data.img, alt="")
+	p=dataCuong.data.desc
+	ul
+		- for (x=0; x<dataCuong.data.list.length; x++)
+			if(x==1)
+				li
+					a(href="#") #{dataCuong.data.list[x]} 2367
+			else 
+				li
+					a(href="#") #{dataCuong.data.list[x]}
+		
+	- for (x=0; x<dataCuong.data.news.length; x++)
+		.item
+			h2=dataCuong.data.news[x].name
+			p=dataCuong.data.news[x].decs
