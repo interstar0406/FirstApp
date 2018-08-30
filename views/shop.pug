@@ -1,0 +1,18 @@
+extends layout
+
+block content
+	.container
+		.row
+			.col
+				h1=dataShop.data.title
+		.row
+			- for (x=0; x<dataShop.data.price.length; x++)
+				.col-md-4.item
+					a(href="#") 
+						figure
+							img(src=dataShop.data.img, alt="")
+							figcaption
+								i #{dataShop.data.name} #{x+1}
+								p=dataShop.data.price[x]
+								p=dataShop.data.desc
+

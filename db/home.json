@@ -1,0 +1,25 @@
+
+{
+	"data": {
+		"title": "FullStack Vietnam",
+		"desc": "admin@fullstackvietnam.com",
+		"img": "http://localhost:3000/img/logo.png",
+		"list": [
+			"áđă",
+			"áđă",
+			"áđă",
+			"áđă"
+		],
+		"news":[
+			{
+			"name": "àhabfjbhaebhfhkacnlaèhquaicn",
+			"decs": "ạhdbahkcnưkẹhfcqlnlahlfljecm"
+			},
+			{
+			"name": "ầ3èqứcgetg",
+			"decs": "ạằ33333333333ahlfljecm"
+			}
+		]
+	}
+	
+}
