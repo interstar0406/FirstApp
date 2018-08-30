@@ -1,0 +1,20 @@
+{
+	"data":
+	[
+		{"name": "Jeans",
+		"gia": "100",
+		"img": "https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/f/5/67804405-1-f.jpg",
+		"desc": "wafwegs dh gsdh sj strj tsrjh str"
+		},
+		{"name": "Jeans",
+			"gia": "100",
+			"img": "https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/f/5/67804405-1-f.jpg",
+			"desc": "wafwegs dh gsdh sj strj tsrjh str"
+		},
+		{"name": "Jeans",
+			"gia": "100",
+			"img": "https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/f/5/67804405-1-f.jpg",
+			"desc": "wafwegs dh gsdh sj strj tsrjh str"
+		}
+	]
+}

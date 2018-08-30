@@ -1,0 +1,18 @@
+extends layout
+
+block content
+	h1= data1.data.title
+	figure
+		img(src=data1.data.img, alt="")
+	p=data1.data.desc
+	ul
+		- for(x=0;x<data1.data.list.length;x++)
+			li
+				- if(x==1)
+					a(href="#") #{data1.data.list[x]} ADDITION
+				- else
+					a(href="#") #{data1.data.list[x]}
+	- for(x=0;x<data1.data.news.length;x++)
+		.item
+			h2= data1.data.news[x].name
+			p= data1.data.news[x].desc

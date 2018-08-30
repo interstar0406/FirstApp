@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	.container
+		.row
+			- for(i=0;i<shopitem.data.length;i++)
+				.col-4.item
+					h2= shopitem.data[i].name
+					p $#{shopitem.data[i].gia}
+					figure
+						img.img-fluid(src=shopitem.data[i].img, alt="")
+					p= shopitem.data[i].desc
+

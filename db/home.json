@@ -1,0 +1,24 @@
+{
+	"data": {
+			"title": "FullStack Vietnam",
+			"desc": "asfklmqwgf qwg arh zjhj srtj strj trjs rtjk stykmsyt jlksaf",
+			"img": "http://localhost:3000/img/logo.png",
+			"list":
+			[
+				"sad qwf wqf qwgeeasg",
+				"safwqg rehstrj srtj strj str",
+				"srhstj srtj strjsjfj fj"
+			],
+			"news":
+			[
+				{
+					"name": "ABC",
+					"desc": "asdwq"
+				},
+				{
+					"name": "ABC",
+					"desc": "asdwq"
+				}
+			]
+	}
+}
